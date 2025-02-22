@@ -9,9 +9,9 @@ const Stack = createStackNavigator();
 export default function AppNavigator() {
   return (
     <NavigationContainer>
-      <Stack.Navigator initialRouteName="Welcome">
+      <Stack.Navigator initialRouteName="welcome">
         <Stack.Screen
-          name="Welcome"
+          name="welcome"
           component={WelcomeScreen}
           options={{ headerShown: false }}
         />

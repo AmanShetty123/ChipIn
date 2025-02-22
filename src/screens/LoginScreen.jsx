@@ -45,10 +45,10 @@ const LoginScreen = ({ navigation }) => {
           {/* Input Fields */}
           <View style={styles.inputContainer}>
             <View style={styles.inputWrapper}>
-              {/* <Image
-                source={require('./assets/email-icon.png')} // Add your email icon
+               <Image
+                source={require('../../assets/email.png')} // Add your email icon
                 style={styles.inputIcon}
-              /> */}
+              />
               <TextInput
                 style={styles.input}
                 placeholder="Email ID"
@@ -60,10 +60,10 @@ const LoginScreen = ({ navigation }) => {
             </View>
 
             <View style={styles.inputWrapper}>
-              {/* <Image
-                source={require('./assets/password-icon.png')} // Add your password icon
+               <Image
+                source={require('../../assets/password.png')} // Add your password icon
                 style={styles.inputIcon}
-              /> */}
+              />
               <TextInput
                 style={styles.input}
                 placeholder="Password"
@@ -91,10 +91,10 @@ const LoginScreen = ({ navigation }) => {
 
           {/* Google Login Button */}
           <TouchableOpacity style={styles.googleButton} onPress={handleGoogleLogin}>
-            {/* <Image
-              source={require('./assets/google-icon.png')} // Add your Google icon
+            <Image
+              source={require('../../assets/google.png')} // Add your Google icon
               style={styles.googleIcon}
-            /> */}
+            />
             <Text style={styles.googleButtonText}>Login with Google</Text>
           </TouchableOpacity>
 
@@ -152,8 +152,8 @@ const styles = StyleSheet.create({
     fontSize: 16,
   },
   inputIcon: {
-    width: 20,
-    height: 20,
+    width: 30,
+    height: 30,
     position: 'absolute',
     left: 12,
     top: 14,
@@ -165,7 +165,7 @@ const styles = StyleSheet.create({
     marginTop: 8,
   },
   loginButton: {
-    backgroundColor: '#0066FF',
+    backgroundColor: '#FFD101',
     height: 48,
     borderRadius: 8,
     justifyContent: 'center',
@@ -173,8 +173,8 @@ const styles = StyleSheet.create({
     marginBottom: 24,
   },
   loginButtonText: {
-    color: '#FFFFFF',
-    fontSize: 16,
+    color: '#000',
+    fontSize: 20,
     fontWeight: '600',
   },
   orContainer: {
